@@ -1,0 +1,160 @@
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("assets/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("assets/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("assets/Montserrat-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Montserrat-Thin;
+  src: url("assets/Montserrat-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-ThinItalic;
+  src: url("assets/Montserrat-ThinItalic.ttf") format("truetype");
+}
+
+body {
+  font-family: Montserrat-Thin;
+  font-size: 1em;
+  font-weight: thin;
+}
+
+#welcome {
+  height: 400px;
+  background-image: url("assets/kingdom.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  display: inline-block;
+  font-family: Montserrat-Medium;
+  color: #666666;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.7);
+  border: 1px #ffffff solid;
+  padding: 20px 20px 20px 20px;
+  margin-top: 120px;
+}
+
+h2 {
+  font-family: Montserrat-Regular;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container p {
+  text-align: center;
+}
+
+.flex-container img {
+  border-radius: 20px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  background-color: #f9cac7;
+}
+
+header ul li {
+  list-style: none;
+  justify-content: space-around;
+  color: #ffffff;
+}
+
+header a {
+  font-family: Montserrat-Regular;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #666666;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #f9cac7;
+  border-color: #f9cac7;
+  color: #666666;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #666666;
+  border-color: #666666;
+  color: #ffffff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  background-color: #f9cac7;
+}
+
+#contact p {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+th,
+td {
+  border: 1px solid #666666;
+  text-align: center;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+#history p {
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+  min-width: 250px;
+}
